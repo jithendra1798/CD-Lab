@@ -389,6 +389,7 @@ int get_state(char *t, int state) {	//Returns the state of a given item.
 	}
 
 	printf("No match for string! (%s)\n", t);
+  return 0;
 }
 
 int get_pos(int flag, char symbol) {	//Returns index of a terminal or a non-terminal from the corresponding arrays.
@@ -409,6 +410,7 @@ int get_pos(int flag, char symbol) {	//Returns index of a terminal or a non-term
 		printf("Terminal not found in get_pos! (%c)\n", symbol);
 	else
 		printf("Non-terminal not found in get_pos! (%c)\n", symbol);
+  return 0;
 }
 
 int get_production_no(char * item) {	//Given an item, it returns the production number of the equivalent production.
@@ -435,6 +437,7 @@ int get_production_no(char * item) {	//Given an item, it returns the production 
 	}
 
 	printf("Production not found! (%s)\n", production);
+  return 0;
 }
 
 void compute_action() {
@@ -518,7 +521,7 @@ void create_parsing_table() {
 
 int epsilon_flag = 0;
 
-initialize_first_follow() {	//Initialize to null strings.
+void initialize_first_follow() {	//Initialize to null strings.
 	int i;
 
 	for(i = 0; i < no_of_terminals; i++)
