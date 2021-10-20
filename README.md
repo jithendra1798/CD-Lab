@@ -2,7 +2,7 @@
 ### Lab-1
 1. Lexical Analysis
 
-###Lab -2
+### Lab -2
 CS305 – Compiler Design Lab
 
 8th September 2021 (2:00 – 4:00)
