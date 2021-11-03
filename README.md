@@ -24,3 +24,10 @@ CS305 – Compiler Design Lab
 3. Implement a program to create a Parsing table for LR(0) Parser.
 4. Write a program to implement LR(0) Parser which takes string as input and determines
 whether the string is accepted by the grammar.
+
+
+### Lab -6
+1. Write a program to translate math expressions from infix to postfix notation using
+syntax-directed translation.
+2. Develop a code to build an abstract syntax tree and also create a Symbol table.
+3. Write a Program to implement Type checking
