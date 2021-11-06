@@ -25,6 +25,11 @@ CS305 – Compiler Design Lab
 4. Write a program to implement LR(0) Parser which takes string as input and determines
 whether the string is accepted by the grammar.
 
+### Lab -4
+  SLR(1)
+  
+### Lab 5
+  LALR(1)
 
 ### Lab -6
 1. Write a program to translate math expressions from infix to postfix notation using
