@@ -36,3 +36,9 @@ whether the string is accepted by the grammar.
 syntax-directed translation.
 2. Develop a code to build an abstract syntax tree and also create a Symbol table.
 3. Write a Program to implement Type checking
+
+### Lab -7
+1. Write a Program to generate three address code in quadruple, triple and indirect triple
+forms.
+2. Write a program to generate machine code.
+3. Write a program to implement code optimization technique.
